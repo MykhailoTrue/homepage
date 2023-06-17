@@ -267,3 +267,18 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.experiences__company-project-timeline{
+    list-style: none;
+}
+
+
+.good_event::before{
+	content: "😀";
+	padding-right: 7px;
+}
+
+.bad_event::before{
+	content: "😑";
+	padding-right: 7px;
+}
